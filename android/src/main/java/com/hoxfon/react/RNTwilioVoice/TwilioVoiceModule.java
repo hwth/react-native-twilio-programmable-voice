@@ -748,12 +748,12 @@ public class TwilioVoiceModule extends ReactContextBaseJavaModule implements Act
     }
 
     private void requestPermissionForMicrophone() {
-        if (ActivityCompat.shouldShowRequestPermissionRationale(getCurrentActivity(), Manifest.permission.RECORD_AUDIO)) {
+        // if (ActivityCompat.shouldShowRequestPermissionRationale(getCurrentActivity(), Manifest.permission.RECORD_AUDIO)) {
 //            Snackbar.make(coordinatorLayout,
 //                    "Microphone permissions needed. Please allow in your application settings.",
 //                    SNACKBAR_DURATION).show();
-        } else {
-            ActivityCompat.requestPermissions(getCurrentActivity(), new String[]{Manifest.permission.RECORD_AUDIO}, MIC_PERMISSION_REQUEST_CODE);
-        }
+        // } else {
+        //     ActivityCompat.requestPermissions(getCurrentActivity(), new String[]{Manifest.permission.RECORD_AUDIO}, MIC_PERMISSION_REQUEST_CODE);
+        // }
     }
 }
