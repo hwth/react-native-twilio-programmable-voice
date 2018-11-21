@@ -346,7 +346,7 @@ TwilioVoice.addEventListener('wiredHeadset', function(data) {
 // ...
 
 // start a call
-TwilioVoice.connect({To: '+61234567890'})
+TwilioVoice.connect({To: '+61234567890', Name: 'Display name'})
 
 // hangup
 TwilioVoice.disconnect()

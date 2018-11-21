@@ -92,7 +92,7 @@ RCT_EXPORT_METHOD(configureCallKit: (NSDictionary *)params) {
 }
 
 RCT_EXPORT_METHOD(connect: (NSDictionary *)params) {
-  NSLog(@"Calling phone number %@", [params valueForKey:@"To"]);
+  NSLog(@"Calling phone number %@", [params valueForKey:@"Name"]);
 
 //  [TwilioVoice setLogLevel:TVOLogLevelVerbose];
 
