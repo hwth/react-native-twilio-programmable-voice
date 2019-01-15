@@ -289,7 +289,7 @@ public class CallNotificationManager {
 
         NotificationCompat.Builder notification = new NotificationCompat.Builder(context, VOICE_CHANNEL)
                 .setContentTitle("Call in progress")
-                .setContentText(caller)
+                .setContentText("The Silver Lines")
                 .setSmallIcon(R.drawable.ic_call_white_24dp)
                 .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
